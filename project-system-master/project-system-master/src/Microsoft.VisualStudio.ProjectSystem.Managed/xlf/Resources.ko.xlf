@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="ko" original="../Resources.resx">
+    <body>
+      <trans-unit id="NoActionProfileName">
+        <source>Start</source>
+        <target state="translated">시작</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="JsonErrorNeedToBeCorrected">
+        <source>Errors in '{0}' need to be corrected before applying changes.</source>
+        <target state="translated">변경 내용을 적용하려면 먼저 '{0}'의 오류를 해결해야 합니다.</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="MsBuildMissingValueToRemove">
+        <source>The specified value to remove '{0}' was not present in the property '{1}'</source>
+        <target state="translated">'{0}'을(를) 제거하기 위해 지정한 값이 '{1}' 속성에 없습니다.</target>
+        <note>{0} will be a specific property value such as "Debug", {1} will be an MsBuild property name such as "Configurations". Neither of those values will be localized.</note>
+      </trans-unit>
+      <trans-unit id="MsBuildMissingValueToRename">
+        <source>The specified value to rename '{0}' was not present in the property '{1}'</source>
+        <target state="translated">'{0}'의 이름을 변경하기 위해 지정한 값이 '{1}' 속성에 없습니다.</target>
+        <note>{0} will be a specific property value such as "Debug", {1} will be an MsBuild property name such as "Configurations". Neither of those values will be localized.</note>
+      </trans-unit>
+      <trans-unit id="AnalyzersNodeName">
+        <source>Analyzers</source>
+        <target state="translated">분석기</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="AssembliesNodeName">
+        <source>Assemblies</source>
+        <target state="translated">어셈블리</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="ComNodeName">
+        <source>COM</source>
+        <target state="translated">COM</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="DependenciesNodeName">
+        <source>Dependencies</source>
+        <target state="translated">종속성</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FrameworkAssembliesNodeName">
+        <source>Framework Assemblies</source>
+        <target state="translated">프레임워크 어셈블리</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="NuGetPackagesNodeName">
+        <source>NuGet</source>
+        <target state="translated">NuGet</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="ProjectsNodeName">
+        <source>Projects</source>
+        <target state="translated">프로젝트</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="SdkNodeName">
+        <source>SDK</source>
+        <target state="translated">SDK</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="FrameworkNodeName">
+        <source>Frameworks</source>
+        <target state="new">Frameworks</target>
+        <note />
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
